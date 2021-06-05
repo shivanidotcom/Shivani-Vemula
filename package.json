@@ -1,0 +1,23 @@
+{
+  "name": "dynamicwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "keywords": [],
+  "author": "shivanivemula",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.1",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "jquery": "^3.6.0",
+    "mongoose": "^5.12.12",
+    "nodemon": "^2.0.7",
+    "validator": "^13.6.0"
+  }
+}

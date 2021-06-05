@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    {{>navbar}}
+    <!---heading section starts--->
+    <div class="container-fluid mt-5">
+       <div class="row">
+           <div class="col-md-10 col-12 mx-auto">
+               <div class="row">
+                   <div class="col-md-6 col-12 header-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+                            <h1>To Find Yourself,</h1>
+                            <h1>Think For Yourself.</h1>
+                            <p>Created with ❤ @ShivaniVemula</p>
+                            <button class="btn-style btn-danger">Hire Me</button>
+                   </div>
+                   <!--right side-->
+                   <div class="col-md-6 col-12 header-text order-md-1 order-0">
+                          <figure>
+                               <img class="img-responsive" src="https://www.clipartkey.com/mpngs/m/4-45883_cartoon-moon-rocket-remix-transparent-background-rocket-ship.png" alt="Chania" width="460" height="345"> 
+                          </figure>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>      
+
+
+    <!---heading section ends--->
+    <!---about me starts--->
+       {{>about}}
+    <!---about me ends--->
+    <!---portfoilo starts--->
+       {{>portfoilo}}
+    <!---portfoilo ends--->
+    <!---gallery starts--->
+       {{>gallery}}
+    <!---gallery ends--->
+    <!---contact starts--->
+       {{>contact}}
+    <!---contact ends--->
+
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+</html>
