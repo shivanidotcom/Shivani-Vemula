@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/dynamicRegistration",{
+mongoose.connect("mongodb+srv://shivani:shivani@cluster0.ztvwq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{
     useNewUrlParser:true,
     useUnifiedTopology:true,
     useCreateIndex:true
